@@ -83,7 +83,6 @@ MIDDLEWARE_CLASSES = (
     'cms.middleware.page.CurrentPageMiddleware',
     'cms.middleware.user.CurrentUserMiddleware',
     'cms.middleware.toolbar.ToolbarMiddleware',
-    'cms.middleware.media.PlaceholderMediaMiddleware',
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (
@@ -119,7 +118,7 @@ INSTALLED_APPS = (
     'mptt',
     'south',
     'cms.plugins.text',
-    #'cms.plugins.picture',
+    'cms.plugins.picture',
     'cms.plugins.link',
     'cms.plugins.file',
     'cms.plugins.snippet',
