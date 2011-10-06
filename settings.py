@@ -97,6 +97,8 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 
 CMS_TEMPLATES = (
     ('example.html', 'Example Template'),
+    ('col_three_accueil.html', 'Accuel'),
+    ('col_two_page.html', 'Page'),
 )
 
 ROOT_URLCONF = 'urls'
